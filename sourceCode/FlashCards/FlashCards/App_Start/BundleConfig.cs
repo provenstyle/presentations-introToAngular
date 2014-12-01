@@ -16,11 +16,11 @@ namespace FlashCards
                 .Include("~/Scripts/jquery-1.9.1.js")
 
                 .Include("~/Scripts/angular.js")
-                .Include("~/Scripts/angular-route.js")
+                //.Include("~/Scripts/angular-route.js")
 
                 .Include("~/App/flashCardsModule.js")
 
-                .Include("~/App/configs/routeConfig.js")
+                //.Include("~/App/configs/routeConfig.js")
 
                 .Include("~/App/models/cardFactory.js")
                 .Include("~/App/models/selectedCards.js")

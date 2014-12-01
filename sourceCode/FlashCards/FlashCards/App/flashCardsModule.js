@@ -1,5 +1,5 @@
 ﻿(function() {
     angular
-        .module('flashCards', ['ngRoute']);
+        .module('flashCards', []);
 })();
 
