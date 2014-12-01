@@ -1,6 +1,6 @@
 ﻿angular
     .module('helloApp')
-    .controller('helloController', ['$scope', 'messagesModel', function ($scope, messagesModel) {
+    .controller('helloController', function ($scope) {
         $scope.firstName = '';
         $scope.lastName = '';
         $scope.fullName = function () {
@@ -9,8 +9,4 @@
         $scope.showMessage = function () {
             return $scope.firstName || $scope.lastName;
         }
-        $scope.message = messagesModel.randomMessage();
-        $scope.newMessage = function () {
-            $scope.message = messagesModel.randomMessage();
-        };
-    }]);
+    });

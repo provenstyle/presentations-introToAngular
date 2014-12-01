@@ -20,8 +20,7 @@
         <label>lastname:</label>
         <input type="text" ng-model="lastName" />
         
-        <button ng-click="newMessage()">New Message</button>
-        <h2 ng-show="showMessage()">{{ message}}, {{ fullName() }}!</h2>
+        <h2 ng-show="showMessage()">Hello, {{ fullName() }}!</h2>
     </div>
     <script src="~/Scripts/jquery-1.10.2.js"></script>
     <script src="~/Scripts/underscore.js"></script>
@@ -29,7 +28,6 @@
     <script src="~/Scripts/angular.js"></script>
 
     <script src="~/app/main.js"></script>
-    <script src="~/app/models/messagesModel.js"></script>
     <script src="~/app/controllers/helloController.js"></script>
 </body>
 </html>
